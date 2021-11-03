@@ -1,6 +1,7 @@
 const fs = require('fs');
 
-const { token, commandsPath, eventsPath } = require('./config.json');
+const { commandsPath, eventsPath } = require('./config.json');
+const { token } = require('./token.json');
 
 const { Client, Intents } = require('discord.js');
 const { SlashCommandStringOption } = require('@discordjs/builders');
